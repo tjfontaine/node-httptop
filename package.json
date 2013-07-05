@@ -1,0 +1,26 @@
+{
+  "name": "httptop",
+  "version": "0.0.1",
+  "author": "Timothy J Fontaine <tjfontaine@gmail.com> (http://atxconsulting.com)",
+  "description": "see popular routes and their latencies",
+  "keywords": [ "dtrace", "top", "http", "performance" ],
+  "homepage": "http://github.com/tjfontaine/node-httptop",
+  "bugs": {
+    "url": "http://github.com/tjfontaine/node-httptop/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/tjfontaine/node-httptop.git"
+  },
+  "main": "httptop.js",
+  "bin": {
+    "httptop": "httptop.js"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+    "blessed": ">= 0.0.8",
+    "lstream": ">= 0.0.1"
+  }
+}
